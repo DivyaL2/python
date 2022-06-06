@@ -1,3 +1,6 @@
-line = "X-DSPAM-Confidence:0.8475"
-num= line.find('0')
-print(num)
+name="reva"
+index=0
+while(index<len(name)):
+  letter=name[index]
+  print(index,letter)
+  index=index+1
